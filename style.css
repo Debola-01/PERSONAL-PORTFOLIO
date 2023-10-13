@@ -45,6 +45,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
+    width: 100%;
 }
 
 .home-image{
@@ -147,3 +148,19 @@
 .btn:hover{
     box-shadow: none;
 }
+
+@media only screen and (max-width: 320px) {
+    .home-image img{
+     width: 100px;
+     height: 100px;
+     left: -px;
+    
+    }
+    .home-image{
+        width: 150px;
+        height: 150px;
+    }
+    .home{
+        width: 100%;
+    }
+  }         
